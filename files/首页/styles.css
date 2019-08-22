@@ -3,7 +3,7 @@
   background-image:none;
   position:relative;
   left:0px;
-  width:415px;
+  width:909px;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
@@ -2425,5 +2425,43 @@
 #u109_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
+}
+#u110_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:439px;
+  height:305px;
+  background:inherit;
+  background-color:rgba(255, 223, 37, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size:14px;
+}
+#u110 {
+  border-width:0px;
+  position:absolute;
+  left:470px;
+  top:252px;
+  width:439px;
+  height:305px;
+  display:flex;
+  font-size:14px;
+}
+#u110 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:10px 10px 10px 10px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u110_text {
+  border-width:0px;
+  word-wrap:break-word;
   text-transform:none;
 }
